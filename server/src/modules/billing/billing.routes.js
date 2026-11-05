@@ -24,7 +24,11 @@ const createRules = [
   body('encounter_id').optional({ checkFalsy: true }).isInt({ min: 1 }).withMessage('Invalid visit'),
   body('admission_id').optional({ checkFalsy: true }).isInt({ min: 1 }).withMessage('Invalid admission'),
   body().custom((_, { req }) => {
-    if (!!req.body.encounter_id === !!req.body.admission_id) throw new Error('Select a visit or an admission');
+    const enc = req.body.encounter_id;
+    const adm = req.body.admission_id;
+    if (!enc && !adm) {
+      throw new Error('Select either a visit or an admission');
+    }
     return true;
   }),
 ];
