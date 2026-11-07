@@ -1,0 +1,125 @@
+{
+  "admin": {
+    "module": {
+      "dashboard": "Dashboard", "patients": "Patients", "appointments": "Appointments", "encounters": "OPD visits",
+      "vitals": "Vital signs", "diagnoses": "Diagnoses", "lab": "Laboratory", "prescriptions": "Prescriptions",
+      "pharmacy": "Pharmacy stock", "billing": "Billing", "wards": "Wards and beds", "admissions": "Admissions",
+      "reports": "Reports", "users": "Users", "roles": "Roles", "audit": "Audit logs", "settings": "Settings"
+    },
+    "users": {
+      "subtitle": "Staff accounts, roles and access",
+      "add": "Add user",
+      "searchPh": "Search name, username or email...",
+      "empty": "No users found",
+      "allRoles": "All roles",
+      "allStatuses": "All statuses",
+      "you": "You",
+      "protectedNote": "Only a super administrator can manage this account",
+      "never": "Never",
+      "sum": { "total": "All users", "active": "Active", "inactive": "Inactive", "locked": "Locked" },
+      "status": { "active": "Active", "inactive": "Inactive", "locked": "Locked", "temp": "Temporary password" },
+      "col": { "user": "User", "role": "Role", "department": "Department", "status": "Status", "lastLogin": "Last login" },
+      "act": {
+        "edit": "Edit", "unlock": "Unlock", "reset": "Reset password", "deactivate": "Deactivate",
+        "activate": "Activate", "permissions": "Permission overrides"
+      },
+      "form": {
+        "createTitle": "Add user", "editTitle": "Edit user", "fullName": "Full name", "username": "Username",
+        "usernameHint": "3-30 characters: lowercase letters, digits, dot or underscore. Cannot be changed later.",
+        "email": "Email (optional)", "phone": "Phone (optional)", "role": "Role", "department": "Department",
+        "noDepartment": "No department",
+        "deptHint": "Required for doctors. It decides the consultation fee and who sees the doctor.",
+        "roleChangeWarn": "Changing the role removes this user's custom permission overrides.",
+        "selfRole": "You cannot change your own role.",
+        "created": "User created", "saved": "User saved",
+        "nameShort": "Enter at least 3 characters",
+        "usernameInvalid": "3-30 characters: lowercase letters, digits, dot or underscore",
+        "emailInvalid": "Enter a valid email address",
+        "phoneInvalid": "Enter a valid Ethiopian phone number",
+        "deptRequired": "A doctor must belong to a department",
+        "tempNote": "A temporary password is created automatically. You will see it once after saving."
+      },
+      "confirm": {
+        "deactivateTitle": "Deactivate account", "deactivateMsg": "{{name}} will no longer be able to sign in. Their records are kept. This takes effect immediately.",
+        "activateTitle": "Activate account", "activateMsg": "{{name}} will be able to sign in again.",
+        "resetTitle": "Reset password", "resetMsg": "A new temporary password will be created for {{name}}. Their current password and active sessions stop working, and they must choose a new password at the next sign-in."
+      },
+      "msg": { "deactivated": "Account deactivated", "activated": "Account activated", "unlocked": "Account unlocked" },
+      "temp": {
+        "title": "Temporary password",
+        "intro": "Give this password to the user in person or by phone. It is shown only once and is not stored anywhere readable.",
+        "username": "Username", "password": "Temporary password", "copy": "Copy", "copied": "Copied",
+        "warn": "The user must change it at the first sign-in.", "done": "I have noted it"
+      },
+      "perm": {
+        "title": "Permission overrides",
+        "intro": "Add or remove single permissions for this person only. Everything else follows the role. Changing the user's role clears the overrides.",
+        "permission": "Permission", "roleDefault": "Role default", "override": "Override", "effective": "Effective",
+        "inherit": "Follow role", "grant": "Grant", "revoke": "Revoke",
+        "saved": "Permissions saved", "privileged": "Administrators with this role already have every permission.",
+        "changes": "{{n}} override(s) selected", "dashLocked": "Always on"
+      }
+    },
+    "roles": {
+      "subtitle": "What each role may do. Changes apply at the user's next request.",
+      "add": "New role", "editNames": "Edit names", "delete": "Delete role", "save": "Save permissions",
+      "system": "System", "usersCount": "{{n}} user(s)", "permsCount": "{{n}} permission(s)",
+      "readOnly": "You can view the permissions but only a super administrator can change them.",
+      "superLocked": "The super administrator role is fixed and cannot be edited here.",
+      "dashLocked": "Every role keeps access to its dashboard.",
+      "appliesTo": "Saving applies immediately to {{n}} user(s) with this role.",
+      "discard": "You have unsaved changes. Discard them?",
+      "selectAll": "Select all", "selectNone": "Clear",
+      "saved": "Permissions saved", "created": "Role created", "updated": "Role updated", "deleted": "Role deleted",
+      "form": {
+        "createTitle": "New role", "editTitle": "Edit role names", "key": "Role key",
+        "keyHint": "3-40 characters: lowercase letters, digits or underscore. Cannot be changed later.",
+        "name": "Role name", "nameAm": "Role name (Amharic)", "description": "Description",
+        "copyFrom": "Start from the permissions of", "copyNone": "Dashboard only",
+        "keyInvalid": "Use 3-40 lowercase letters, digits or underscore, starting with a letter"
+      },
+      "deleteTitle": "Delete role",
+      "deleteMsg": "Delete the role \"{{name}}\"? This cannot be undone.",
+      "deleteBlocked": "This role is assigned to users. Move them to another role first.",
+      "customNote": "Custom roles get the generic dashboard (no charts), and are not offered as doctors in appointment booking."
+    },
+    "audit": {
+      "subtitle": "Who did what and when. Entries cannot be edited or deleted.",
+      "tab": { "activity": "Activity", "logins": "Sign-ins" },
+      "from": "From", "to": "To", "user": "User", "module": "Module", "action": "Action", "record": "Record ID",
+      "recordPh": "Exact record ID", "allUsers": "All users", "allModules": "All modules", "allActions": "All actions",
+      "time": "Time", "details": "Details", "hidden": "Details are hidden for your role (clinical information).",
+      "noDetails": "No details", "empty": "No entries for these filters", "system": "System", "rangeError": "The start date must not be after the end date",
+      "col": { "username": "Username", "ip": "IP address", "result": "Result", "device": "Device" },
+      "result": { "all": "All results", "success": "Successful", "failed": "Failed" },
+      "ok": "Success", "failed": "Failed", "usernamePh": "Search username...",
+      "sum": { "success24": "Successful sign-ins (24 h)", "failed24": "Failed sign-ins (24 h)", "locked": "Accounts locked now" }
+    },
+    "settings": {
+      "subtitle": "Hospital identity and system defaults",
+      "hospital": "Hospital", "system": "System defaults",
+      "name": "Hospital name", "nameAm": "Hospital name (Amharic)",
+      "nameHint": "Shown on the login page, sidebar, receipts and printouts.",
+      "currency": "Currency", "currencyHint": "Prices are in Ethiopian Birr.",
+      "language": "Default language", "languageHint": "Used for people who have not picked a language themselves.",
+      "en": "English", "am": "አማርኛ",
+      "mrnPrefix": "MRN prefix", "mrnHint": "Applies to patients registered from now on. Existing numbers do not change.",
+      "preview": "Next MRN will look like",
+      "slot": "Appointment slot length", "slotHint": "Applies to new bookings. Existing appointments keep their times.",
+      "minutes": "minutes", "saved": "Settings saved", "nothing": "Nothing was changed",
+      "nameShort": "Enter 2-100 characters", "prefixInvalid": "Use 2-6 letters or digits"
+    }
+  },
+  "account": {
+    "title": "My account",
+    "subtitle": "Your profile and password",
+    "mustChange": "You are using a temporary password. Choose your own password to continue.",
+    "info": { "name": "Name", "username": "Username", "role": "Role", "department": "Department" },
+    "change": "Change password",
+    "current": "Current password", "new": "New password", "confirm": "Confirm new password",
+    "rules": "At least 8 characters, with one uppercase letter and one number.",
+    "submit": "Change password", "saved": "Password changed",
+    "tooShort": "Use at least 8 characters", "needUpper": "Include an uppercase letter", "needDigit": "Include a number",
+    "same": "Choose a password different from the current one", "mismatch": "The passwords do not match"
+  }
+}

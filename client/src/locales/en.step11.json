@@ -1,0 +1,95 @@
+{
+  "dash": {
+    "subtitle": "Live overview for your role. It refreshes every minute.",
+    "noData": "No data yet",
+    "listEmpty": "Nothing to show right now",
+    "card": {
+      "patients_total": "Registered patients", "visits_today": "Visits today", "appts_today": "Appointments today",
+      "inpatients": "Inpatients now", "occupancy": "Bed occupancy", "revenue_today": "Net revenue today",
+      "outstanding": "Outstanding balance", "stock_alerts": "Stock alerts",
+      "waiting": "Waiting for me", "in_consult": "In consultation", "completed_today": "Completed today", "lab_pending": "Lab results pending",
+      "need_vitals": "Need vital signs", "open_visits": "Open visits today", "samples_to_collect": "Samples to collect", "beds_cleaning": "Beds to clean",
+      "registered_today": "Registered today", "waiting_today": "Checked in, waiting", "upcoming_today": "Expected arrivals", "walk_ins_today": "Walk-ins today",
+      "to_collect": "To collect", "in_lab": "In the lab", "to_verify": "To verify", "critical": "Critical results", "verified_today": "Verified today", "avg_tat": "Average turnaround",
+      "rx_waiting": "Prescriptions waiting", "dispensed_today": "Dispensed today", "low_out": "Low or out of stock", "expiring": "Expiring in 90 days", "expired": "With expired stock",
+      "collected_today": "Collected today", "invoices_open": "Open invoices", "to_bill": "Visits to bill"
+    },
+    "chart": {
+      "visits_7d": "Visits, last 7 days", "revenue_7d": "Net revenue, last 7 days", "beds": "Bed status", "my_visits_7d": "My visits, last 7 days",
+      "registrations_7d": "New patients, last 7 days", "booked_7d": "Booked appointments, next 7 days", "tests_7d": "Lab tests, last 7 days",
+      "queue": "Lab queue", "dispensed_7d": "Units dispensed, last 7 days", "stock": "Medicine stock status",
+      "collections_7d": "Collections, last 7 days", "methods": "Today by payment method"
+    },
+    "list": {
+      "queue": "My queue today", "results_ready": "Results ready (last 24 hours)", "needs_vitals": "Waiting for vital signs",
+      "beds_to_clean": "Beds to clean", "arrivals": "Expected arrivals today", "attention": "Needs attention",
+      "waiting_rx": "Prescriptions waiting", "low_stock": "Stock alerts", "open_invoices": "Largest open balances"
+    }
+  },
+  "rep": {
+    "subtitle": "Totals for a chosen period. Reports never show patient names.",
+    "from": "From", "to": "To", "min": "min",
+    "preset": { "today": "Today", "last7": "Last 7 days", "last30": "Last 30 days", "thisMonth": "This month" },
+    "tab": { "overview": "Overview", "clinical": "Clinical", "lab": "Laboratory", "inpatient": "Inpatient", "finance": "Finance", "pharmacy": "Pharmacy" },
+    "export": "Export CSV (Excel)", "print": "Print / Save as PDF", "exported": "Report exported",
+    "noData": "No data for this period", "noAccess": "Your role has no report sections.",
+    "rangeError": "The start date must not be after the end date",
+    "mineNote": "These figures cover your own collections only.",
+    "period": "Period", "generated": "Generated",
+    "kpi": {
+      "new_patients": "New patients", "visits": "Visits", "completed": "Completed visits", "appointments": "Appointments", "no_show_rate": "No-show rate",
+      "admissions": "Admissions", "discharges": "Discharges", "net_collected": "Net collections", "billed": "Billed",
+      "avg_visit_min": "Average visit time", "tests": "Tests ordered", "verified": "Verified results", "reject_rate": "Rejection rate",
+      "abnormal_rate": "Abnormal rate", "critical": "Critical results", "avg_tat": "Average turnaround", "avg_los": "Average length of stay",
+      "now_in": "In hospital now", "occupancy_now": "Bed occupancy now", "collected": "Collected", "refunded": "Refunded", "discounts": "Discounts",
+      "outstanding": "Outstanding balance", "dispensed_units": "Units dispensed", "dispensed_rx": "Prescriptions dispensed",
+      "dispensed_value": "Dispensed value", "stock_value": "Stock value", "low_out": "Low or out of stock",
+      "expiring_meds": "Expiring medicines", "expired_meds": "Medicines with expired stock"
+    },
+    "def": {
+      "new_patients": "Patients registered in the period.",
+      "visits": "OPD visits started in the period. Cancelled visits are excluded.",
+      "completed": "Visits that reached the Completed status.",
+      "appointments": "Booked (not walk-in) appointments in the period, cancelled ones excluded.",
+      "no_show_rate": "No-shows divided by booked appointments dated today or earlier, times 100.",
+      "admissions": "Patients admitted in the period.",
+      "discharges": "Patients discharged in the period.",
+      "net_collected": "Payments received minus refunds in the period.",
+      "billed": "Total of invoices created in the period, after discounts, cancelled ones excluded.",
+      "avg_visit_min": "Average minutes from arrival to completion, completed visits only.",
+      "tests": "Lab tests ordered in the period, cancelled ones excluded.",
+      "verified": "Tests that have a verified result.",
+      "reject_rate": "Rejected samples divided by tests ordered, times 100.",
+      "abnormal_rate": "Verified results flagged low, high or critical divided by verified results, times 100.",
+      "critical": "Verified results flagged critical.",
+      "avg_tat": "Average minutes from the order to the verified result.",
+      "avg_los": "Average days from admission to discharge, for patients discharged in the period.",
+      "now_in": "Patients in hospital right now.",
+      "occupancy_now": "Occupied beds divided by beds not under maintenance, times 100, right now.",
+      "collected": "Payments received, before refunds.",
+      "refunded": "Money returned through refunds.",
+      "discounts": "Discounts approved on invoices created in the period.",
+      "outstanding": "Unpaid balance of all open invoices right now.",
+      "dispensed_units": "Units of medicine dispensed in the period.",
+      "dispensed_rx": "Prescriptions with at least one dispensing in the period.",
+      "dispensed_value": "Units dispensed times the current unit price (ETB).",
+      "stock_value": "Valid (not expired) stock times unit price, right now.",
+      "low_out": "Medicines at or below their reorder level, including those out of stock.",
+      "expiring_meds": "Medicines with stock that expires within 90 days.",
+      "expired_meds": "Medicines that still hold expired stock."
+    },
+    "chart": { "visits": "Visits per day", "collected": "Net collections per day", "tests": "Lab tests per day", "admissions": "Admissions per day", "dispensed": "Units dispensed per day" },
+    "table": {
+      "top_dx": "Top diagnoses (counts only)", "by_dept": "Visits by department", "by_age": "Visits by age group", "by_test": "Tests by type",
+      "by_ward": "Admissions by ward", "by_method": "Collections by payment method", "by_type": "Billed by service type (before discounts)",
+      "top_meds": "Most dispensed medicines", "low_stock": "Low or out of stock"
+    },
+    "col": {
+      "code": "ICD-10", "description": "Diagnosis", "count": "Count", "department": "Department", "age_group": "Age group", "test": "Test",
+      "abnormal": "Abnormal", "avg_tat": "Avg. turnaround", "ward": "Ward", "avg_los": "Avg. stay (days)", "method": "Method",
+      "collected": "Collected", "refunded": "Refunded", "net": "Net", "type": "Type", "amount": "Amount", "medicine": "Medicine",
+      "units": "Units", "rx": "Prescriptions", "stock": "In stock", "reorder": "Reorder level", "date": "Date", "value": "Value"
+    },
+    "age": { "a": "Under 5 years", "b": "5 to 14 years", "c": "15 to 49 years", "d": "50 years and over" }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "home": {
+    "signIn": "Sign in",
+    "openDashboard": "Open dashboard",
+    "heroTitle": "Care that is organised from the first visit to discharge",
+    "heroText": "One system for registration, appointments, consultations, laboratory, pharmacy, billing in Birr, and hospital beds. Every staff member sees only what their role allows.",
+    "servicesTitle": "What the system covers",
+    "galleryTitle": "Our departments",
+    "s": {
+      "patients": ["Patients", "One record and one MRN for every patient"],
+      "appointments": ["Appointments", "Doctor slots, walk-ins and a live queue"],
+      "opd": ["Consultation", "Vital signs, notes, diagnoses and orders"],
+      "lab": ["Laboratory", "Samples, results and verified reports"],
+      "pharmacy": ["Pharmacy", "Safe dispensing, earliest expiry first"],
+      "billing": ["Billing", "Invoices and payments by cash, Telebirr or bank"],
+      "wards": ["Wards and beds", "Admissions, transfers and discharge"],
+      "reports": ["Reports", "Dashboards and exportable summaries"]
+    },
+    "howTitle": "How a visit flows",
+    "steps": ["Register", "Check in", "Nurse", "Doctor", "Lab and pharmacy", "Payment"],
+    "secTitle": "Secure by design",
+    "sec": [
+      "Role-based access checked on the server",
+      "Every action recorded in the audit log",
+      "English and Amharic, Ethiopian calendar and Birr"
+    ],
+    "footer": "Authorised staff only. Sign in with the account given by the hospital administrator."
+  }
+}
