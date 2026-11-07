@@ -1,0 +1,70 @@
+{
+  "app": {
+    "hospital": "እንጅባራ ጠቅላላ ሆስፒታል",
+    "tagline": "የተቀናጀ የሆስፒታል አስተዳደር ሲስተም"
+  },
+  "nav": {
+    "dashboard": "ዳሽቦርድ",
+    "patients": "ታካሚዎች",
+    "appointments": "ቀጠሮዎች",
+    "opd": "ተመላላሽ ህክምና",
+    "lab": "ላቦራቶሪ",
+    "pharmacy": "ፋርማሲ",
+    "stock": "የመድኃኒት ክምችት",
+    "billing": "ክፍያና ሂሳብ",
+    "wards": "ዋርዶችና አልጋዎች",
+    "admissions": "ተኝቶ ህክምና",
+    "reports": "ሪፖርቶች",
+    "users": "ተጠቃሚዎች",
+    "roles": "ሚናዎችና ፈቃዶች",
+    "audit": "የእንቅስቃሴ መዝገብ",
+    "settings": "ቅንብሮች"
+  },
+  "sections": {
+    "main": "ዋና",
+    "clinical": "ክሊኒካል",
+    "services": "አገልግሎቶች",
+    "finance": "ፋይናንስ",
+    "inpatient": "ተኝቶ ህክምና",
+    "insights": "ትንታኔ",
+    "admin": "አስተዳደር"
+  },
+  "login": {
+    "welcome": "እንኳን ደህና መጡ",
+    "subtitle": "ወደ ሥራ ገጽዎ ለመግባት ይግቡ",
+    "username": "የተጠቃሚ ስም",
+    "password": "የይለፍ ቃል",
+    "usernamePh": "የተጠቃሚ ስምዎን ያስገቡ",
+    "passwordPh": "የይለፍ ቃልዎን ያስገቡ",
+    "signIn": "ግባ",
+    "signingIn": "በመግባት ላይ...",
+    "demoTitle": "የሙከራ መለያዎች (ለመሙላት ይጫኑ)",
+    "networkError": "አገልጋዩን ማግኘት አልተቻለም። ባክኤንዱ እየሰራ ነው?",
+    "required": "የተጠቃሚ ስም እና የይለፍ ቃል ያስፈልጋሉ",
+    "f1": "ለእያንዳንዱ ባለሙያ በሚናው ልክ የተጠበቀ መዳረሻ",
+    "f2": "እያንዳንዱ እንቅስቃሴ በመዝገብ ይያዛል",
+    "f3": "እንግሊዝኛ እና አማርኛ፣ ብር እና የኢትዮጵያ ቀን መቁጠሪያ"
+  },
+  "common": {
+    "logout": "ውጣ",
+    "role": "ሚና",
+    "department": "ክፍል",
+    "permissions": "ፈቃዶች",
+    "backHome": "ወደ ዳሽቦርድ ተመለስ"
+  },
+  "dashboard": {
+    "welcome": "እንኳን ደህና መጡ፣ {{name}}",
+    "subtitle": "መለያዎ መድረስ የሚችልባቸው ክፍሎች እነዚህ ናቸው።",
+    "modules": "የሚገኙ ክፍሎች",
+    "yourPermissions": "የእርስዎ ፈቃዶች",
+    "yourModules": "የእርስዎ ክፍሎች"
+  },
+  "errors": {
+    "unauthorizedTitle": "መግባት አልተፈቀደም",
+    "unauthorizedMsg": "ይህን ገጽ ለመክፈት ፈቃድ የለዎትም።",
+    "notFoundTitle": "ገጹ አልተገኘም",
+    "notFoundMsg": "የፈለጉት ገጽ የለም።",
+    "comingSoonTitle": "በቀጣይ ደረጃዎች ይሰራል",
+    "comingSoonMsg": "ይህ ክፍል በቀጣይ ደረጃ ይገነባል።"
+  }
+}

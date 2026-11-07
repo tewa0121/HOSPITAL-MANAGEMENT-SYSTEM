@@ -1,0 +1,108 @@
+{
+  "lab": {
+    "subtitle": "Sample collection, test results and verification",
+    "searchPh": "Search patient, MRN or barcode...",
+    "empty": "No lab orders found",
+    "autoRefresh": "Refreshes automatically every 30 seconds",
+    "waiting": "waiting",
+    "tab": {
+      "active": "Active",
+      "ordered": "To collect",
+      "collected": "Collected",
+      "processing": "Processing",
+      "resulted": "To verify",
+      "verified": "Verified",
+      "rejected": "Rejected",
+      "catalog": "Test catalog"
+    },
+    "summary": {
+      "toCollect": "To collect",
+      "inLab": "In the lab",
+      "toVerify": "To verify",
+      "verifiedToday": "Verified today",
+      "avgTat": "Average turnaround",
+      "min": "min",
+      "criticalAlert": "{{n}} critical result(s) waiting for verification"
+    },
+    "col": {
+      "order": "Barcode",
+      "patient": "Patient",
+      "test": "Test",
+      "ordered": "Ordered",
+      "status": "Status",
+      "result": "Result"
+    },
+    "priority": { "routine": "Routine", "urgent": "Urgent" },
+    "status": {
+      "ordered": "To collect",
+      "collected": "Collected",
+      "processing": "Processing",
+      "resulted": "To verify",
+      "verified": "Verified",
+      "rejected": "Rejected",
+      "cancelled": "Cancelled"
+    },
+    "flag": { "normal": "Normal", "low": "Low", "high": "High", "critical": "Critical" },
+    "qualFlag": { "normal": "Normal / Negative", "high": "Abnormal / Positive", "critical": "Critical" },
+    "act": {
+      "collect": "Collect sample",
+      "start": "Start",
+      "result": "Enter result",
+      "edit": "Edit result",
+      "verify": "Verify",
+      "reject": "Reject"
+    },
+    "msg": {
+      "collected": "Sample collected. Barcode",
+      "started": "Processing started",
+      "resultSaved": "Result saved. It now waits for verification.",
+      "verified": "Result verified and released to the doctor",
+      "criticalVerified": "CRITICAL result verified. Inform the doctor immediately.",
+      "rejected": "Sample rejected"
+    },
+    "resultModal": {
+      "title": "Enter result",
+      "reference": "Reference range",
+      "value": "Result",
+      "unit": "Unit",
+      "flag": "Interpretation",
+      "autoFlag": "Calculated automatically",
+      "comment": "Comment (optional)",
+      "notNumber": "This test needs a numeric result",
+      "required": "Result is required",
+      "correction": "This result was already entered. Saving will replace it, and the previous value is kept in the audit log."
+    },
+    "rejectModal": {
+      "title": "Reject sample",
+      "reason": "Reason",
+      "reasonPh": "e.g. Hemolyzed sample",
+      "hint": "The doctor will see the reason and can order the test again.",
+      "required": "Enter a reason (at least 3 characters)",
+      "confirm": "Reject"
+    },
+    "verifyModal": {
+      "title": "Verify and release result",
+      "msg": "Once verified, the result is released to the doctor and can no longer be edited.",
+      "self": "You entered this result yourself. The audit log will record that the same person entered and verified it."
+    },
+    "catalog": {
+      "add": "Add test",
+      "edit": "Edit test",
+      "code": "Code",
+      "codeHint": "2-12 letters or digits, cannot be changed later",
+      "name": "Test name",
+      "category": "Category",
+      "specimen": "Specimen",
+      "unit": "Unit",
+      "refLow": "Reference low",
+      "refHigh": "Reference high",
+      "refText": "Reference text",
+      "refHint": "Leave both limits empty for a qualitative test (e.g. Negative / Positive).",
+      "price": "Price (ETB)",
+      "active": "Active",
+      "inactive": "Inactive",
+      "saved": "Test saved",
+      "reference": "Reference"
+    }
+  }
+}

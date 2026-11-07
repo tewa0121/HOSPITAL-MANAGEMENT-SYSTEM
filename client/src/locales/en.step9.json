@@ -1,0 +1,125 @@
+{
+  "bill": {
+    "subtitle": "Invoices, payments and daily collections (ETB)",
+    "searchPh": "Search invoice, patient or MRN...",
+    "empty": "No invoices found",
+    "emptyToBill": "Every recent visit already has an invoice",
+    "autoRefresh": "Refreshes automatically every 30 seconds",
+    "tab": { "tobill": "To bill", "open": "Open", "paid": "Paid", "cancelled": "Cancelled", "all": "All (by date)" },
+    "sum": {
+      "collected": "Collected today",
+      "collectedMine": "My collections today",
+      "refunded": "refunded",
+      "outstanding": "Outstanding balance",
+      "open": "open invoices",
+      "toBill": "Visits to bill",
+      "byMethod": "By payment method"
+    },
+    "col": {
+      "invoice": "Invoice", "patient": "Patient", "date": "Date", "total": "Total", "paid": "Paid",
+      "balance": "Balance", "status": "Status", "visit": "Visit", "doctor": "Doctor", "services": "Services"
+    },
+    "status": { "unpaid": "Unpaid", "partial": "Partly paid", "paid": "Paid", "cancelled": "Cancelled" },
+    "method": { "cash": "Cash", "telebirr": "Telebirr", "cbe_birr": "CBE Birr", "bank_transfer": "Bank transfer", "insurance": "Insurance", "other": "Other" },
+    "vtype": { "opd": "OPD", "emergency": "Emergency" },
+    "labs": "lab tests",
+    "meds": "medicines",
+    "act": {
+      "create": "Create invoice", "open": "Open", "print": "Print", "sync": "Update from visit",
+      "addService": "Add service", "pay": "Take payment", "discount": "Discount", "refund": "Refund",
+      "cancel": "Cancel invoice", "back": "Back to billing", "receipt": "Receipt", "backInvoice": "Back to invoice"
+    },
+    "msg": {
+      "created": "Invoice created",
+      "synced": "Invoice updated: {{added}} added, {{updated}} changed, {{removed}} removed",
+      "upToDate": "Invoice is already up to date",
+      "added": "Service added",
+      "removed": "Item removed",
+      "paid": "Payment recorded. Receipt",
+      "discount": "Discount saved",
+      "refunded": "Refund recorded. Receipt",
+      "cancelled": "Invoice cancelled"
+    },
+    "d": {
+      "patient": "Patient", "created": "Created", "createdBy": "Created by", "visit": "Open visit",
+      "items": "Invoice items", "description": "Description", "qty": "Qty", "unitPrice": "Unit price",
+      "amount": "Amount", "subtotal": "Subtotal", "discount": "Discount", "approvedBy": "Approved by",
+      "total": "Total", "paid": "Paid", "balance": "Balance due", "payments": "Payments and refunds",
+      "noPayments": "No payments yet", "receipt": "Receipt no.", "method": "Method", "reference": "Reference",
+      "receivedBy": "Received by", "when": "Date and time", "removeItem": "Remove",
+      "cancelledNote": "This invoice is cancelled.",
+      "paidNote": "This invoice is fully paid.",
+      "autoNote": "Consultation, lab and medication items follow the visit. Use \"Update from visit\" after the lab or pharmacy has done more work.",
+      "type": { "consultation": "Consultation", "lab_order": "Laboratory", "prescription": "Medication", "other": "Service" }
+    },
+    "pay": {
+      "title": "Take payment",
+      "balance": "Balance due",
+      "amount": "Amount (ETB)",
+      "payFull": "Pay full balance",
+      "method": "Payment method",
+      "reference": "Transaction reference",
+      "referenceHint": "The transaction ID from the Telebirr, CBE Birr or bank receipt",
+      "tendered": "Cash received",
+      "change": "Change to give back",
+      "confirm": "Record payment",
+      "over": "The amount is higher than the balance",
+      "invalid": "Enter a valid amount (at most 2 decimals)",
+      "refRequired": "Enter the transaction reference"
+    },
+    "disc": {
+      "title": "Discount",
+      "type": "Type",
+      "percent": "Percentage (%)",
+      "amount": "Fixed amount (ETB)",
+      "value": "Value",
+      "reason": "Reason",
+      "reasonPh": "e.g. Staff family member, social support",
+      "hint": "Only the hospital administrator can approve discounts. Enter 0 to remove the discount. The reason is kept in the audit log.",
+      "newDiscount": "Discount",
+      "newTotal": "New total",
+      "exceeds": "The discount cannot be higher than the subtotal",
+      "belowPaid": "The new total would be lower than the amount already paid",
+      "invalid": "Enter 0 or a positive value",
+      "reasonRequired": "Enter a reason (at least 3 characters)"
+    },
+    "ref": {
+      "title": "Refund",
+      "paid": "Net amount paid",
+      "amount": "Refund amount (ETB)",
+      "method": "Returned by",
+      "reason": "Reason",
+      "reasonPh": "e.g. Test cancelled, wrong charge",
+      "hint": "A refund is recorded as a new entry. The original payment is never changed.",
+      "exceeds": "You cannot refund more than has been paid",
+      "confirm": "Record refund"
+    },
+    "cancel": {
+      "title": "Cancel invoice",
+      "msg": "A cancelled invoice cannot be used again. The visit can then be invoiced again from the \"To bill\" tab.",
+      "reason": "Reason",
+      "reasonPh": "e.g. Created by mistake",
+      "confirm": "Cancel invoice",
+      "hasPayments": "Payments exist on this invoice. Refund them first."
+    },
+    "svc": {
+      "title": "Add service",
+      "service": "Service",
+      "select": "Select a service",
+      "qty": "Quantity",
+      "hint": "Lab tests and medication are added automatically from the visit."
+    },
+    "receipt": {
+      "title": "Payment receipt",
+      "refundTitle": "Refund receipt",
+      "invoice": "Invoice",
+      "patient": "Patient",
+      "mrn": "MRN",
+      "amount": "Amount",
+      "balanceAfter": "Balance on invoice",
+      "thanks": "Thank you",
+      "keep": "Please keep this receipt.",
+      "print": "Print receipt"
+    }
+  }
+}

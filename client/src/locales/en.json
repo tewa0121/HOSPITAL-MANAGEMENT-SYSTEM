@@ -1,0 +1,70 @@
+{
+  "app": {
+    "hospital": "Injibara General Hospital",
+    "tagline": "Integrated Hospital Management System"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "patients": "Patients",
+    "appointments": "Appointments",
+    "opd": "OPD / Consultation",
+    "lab": "Laboratory",
+    "pharmacy": "Pharmacy",
+    "stock": "Drug Stock",
+    "billing": "Billing & Payments",
+    "wards": "Wards & Beds",
+    "admissions": "Admissions",
+    "reports": "Reports",
+    "users": "Users",
+    "roles": "Roles & Permissions",
+    "audit": "Audit Logs",
+    "settings": "Settings"
+  },
+  "sections": {
+    "main": "Main",
+    "clinical": "Clinical",
+    "services": "Services",
+    "finance": "Finance",
+    "inpatient": "Inpatient",
+    "insights": "Insights",
+    "admin": "Administration"
+  },
+  "login": {
+    "welcome": "Welcome back",
+    "subtitle": "Sign in to continue to your workspace",
+    "username": "Username",
+    "password": "Password",
+    "usernamePh": "Enter your username",
+    "passwordPh": "Enter your password",
+    "signIn": "Sign in",
+    "signingIn": "Signing in...",
+    "demoTitle": "Demo accounts (click to fill)",
+    "networkError": "Cannot reach the server. Is the backend running?",
+    "required": "Username and password are required",
+    "f1": "Secure role-based access for every staff member",
+    "f2": "Every action is recorded in the audit log",
+    "f3": "English and Amharic, Birr (ETB) and Ethiopian calendar"
+  },
+  "common": {
+    "logout": "Log out",
+    "role": "Role",
+    "department": "Department",
+    "permissions": "Permissions",
+    "backHome": "Back to dashboard"
+  },
+  "dashboard": {
+    "welcome": "Welcome, {{name}}",
+    "subtitle": "Here is what your account can access.",
+    "modules": "Modules available",
+    "yourPermissions": "Your permissions",
+    "yourModules": "Your modules"
+  },
+  "errors": {
+    "unauthorizedTitle": "Access denied",
+    "unauthorizedMsg": "You do not have permission to open this page.",
+    "notFoundTitle": "Page not found",
+    "notFoundMsg": "The page you are looking for does not exist.",
+    "comingSoonTitle": "Coming in the next steps",
+    "comingSoonMsg": "This module will be built in an upcoming step."
+  }
+}

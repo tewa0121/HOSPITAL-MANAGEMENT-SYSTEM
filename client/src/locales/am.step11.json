@@ -1,0 +1,95 @@
+{
+  "dash": {
+    "subtitle": "ለሚናዎ የተዘጋጀ ወቅታዊ መረጃ። በየደቂቃው ይታደሳል።",
+    "noData": "እስካሁን መረጃ የለም",
+    "listEmpty": "አሁን የሚታይ ነገር የለም",
+    "card": {
+      "patients_total": "የተመዘገቡ ታካሚዎች", "visits_today": "የዛሬ ጉብኝቶች", "appts_today": "የዛሬ ቀጠሮዎች",
+      "inpatients": "አሁን የተኙ ታካሚዎች", "occupancy": "የአልጋ አጠቃቀም", "revenue_today": "የዛሬ የተጣራ ገቢ",
+      "outstanding": "ያልተከፈለ ቀሪ ሂሳብ", "stock_alerts": "የክምችት ማስጠንቀቂያዎች",
+      "waiting": "እኔን የሚጠብቁ", "in_consult": "በምርመራ ላይ", "completed_today": "ዛሬ የተጠናቀቁ", "lab_pending": "ውጤት የሚጠበቅ ምርመራ",
+      "need_vitals": "መለኪያ የሚያስፈልጋቸው", "open_visits": "የዛሬ ክፍት ጉብኝቶች", "samples_to_collect": "ናሙና የሚወሰድ", "beds_cleaning": "የሚጸዱ አልጋዎች",
+      "registered_today": "ዛሬ የተመዘገቡ", "waiting_today": "ተመዝግበው የሚጠብቁ", "upcoming_today": "የሚጠበቁ መምጣቶች", "walk_ins_today": "ዛሬ ያለ ቀጠሮ የመጡ",
+      "to_collect": "ናሙና የሚወሰድ", "in_lab": "በላብ ውስጥ", "to_verify": "የሚረጋገጥ", "critical": "አደገኛ ውጤቶች", "verified_today": "ዛሬ የተረጋገጠ", "avg_tat": "አማካይ የውጤት ጊዜ",
+      "rx_waiting": "የሚጠብቁ ማዘዣዎች", "dispensed_today": "ዛሬ የተሰጠ", "low_out": "ዝቅተኛ ወይም ያለቀ", "expiring": "በ90 ቀን የሚያልቅ", "expired": "ጊዜው ያለፈ ክምችት ያለው",
+      "collected_today": "ዛሬ የተሰበሰበ", "invoices_open": "ክፍት ደረሰኞች", "to_bill": "ሂሳብ የሚቆረጥላቸው ጉብኝቶች"
+    },
+    "chart": {
+      "visits_7d": "ጉብኝቶች፣ ያለፉት 7 ቀናት", "revenue_7d": "የተጣራ ገቢ፣ ያለፉት 7 ቀናት", "beds": "የአልጋ ሁኔታ", "my_visits_7d": "የእኔ ጉብኝቶች፣ ያለፉት 7 ቀናት",
+      "registrations_7d": "አዲስ ታካሚዎች፣ ያለፉት 7 ቀናት", "booked_7d": "የተያዙ ቀጠሮዎች፣ የሚቀጥሉት 7 ቀናት", "tests_7d": "የላብ ምርመራዎች፣ ያለፉት 7 ቀናት",
+      "queue": "የላብ ተራ", "dispensed_7d": "የተሰጠ ብዛት፣ ያለፉት 7 ቀናት", "stock": "የመድኃኒት ክምችት ሁኔታ",
+      "collections_7d": "ስብስብ፣ ያለፉት 7 ቀናት", "methods": "የዛሬ በክፍያ ዘዴ"
+    },
+    "list": {
+      "queue": "የዛሬ ተራዬ", "results_ready": "ውጤት የደረሰ (ባለፉት 24 ሰዓት)", "needs_vitals": "መለኪያ የሚጠብቁ",
+      "beds_to_clean": "የሚጸዱ አልጋዎች", "arrivals": "ዛሬ የሚጠበቁ መምጣቶች", "attention": "ትኩረት የሚፈልጉ",
+      "waiting_rx": "የሚጠብቁ ማዘዣዎች", "low_stock": "የክምችት ማስጠንቀቂያዎች", "open_invoices": "ትልቅ ቀሪ ያላቸው ክፍት ደረሰኞች"
+    }
+  },
+  "rep": {
+    "subtitle": "ለተመረጠ ጊዜ ድምሮች። ሪፖርቶች የታካሚ ስም በጭራሽ አያሳዩም።",
+    "from": "ከ", "to": "እስከ", "min": "ደቂቃ",
+    "preset": { "today": "ዛሬ", "last7": "ያለፉት 7 ቀናት", "last30": "ያለፉት 30 ቀናት", "thisMonth": "ይህ ወር" },
+    "tab": { "overview": "አጠቃላይ", "clinical": "ክሊኒካል", "lab": "ላቦራቶሪ", "inpatient": "ተኝቶ ህክምና", "finance": "ፋይናንስ", "pharmacy": "ፋርማሲ" },
+    "export": "CSV አውርድ (Excel)", "print": "አትም / እንደ PDF አስቀምጥ", "exported": "ሪፖርቱ ወርዷል",
+    "noData": "ለዚህ ጊዜ መረጃ የለም", "noAccess": "ለእርስዎ ሚና ምንም የሪፖርት ክፍል የለም።",
+    "rangeError": "መነሻ ቀን ከመጨረሻ ቀን መብለጥ የለበትም",
+    "mineNote": "እነዚህ አሃዞች የእርስዎን የራስዎን ስብስብ ብቻ ይሸፍናሉ።",
+    "period": "ጊዜ", "generated": "የተዘጋጀበት",
+    "kpi": {
+      "new_patients": "አዲስ ታካሚዎች", "visits": "ጉብኝቶች", "completed": "የተጠናቀቁ ጉብኝቶች", "appointments": "ቀጠሮዎች", "no_show_rate": "ያልመጡ መጠን",
+      "admissions": "የተኙ", "discharges": "የተሰናበቱ", "net_collections": "የተጣራ ስብስብ", "net_collected": "የተጣራ ስብስብ", "billed": "የተቆረጠ ሂሳብ",
+      "avg_visit_min": "አማካይ የጉብኝት ጊዜ", "tests": "የታዘዙ ምርመራዎች", "verified": "የተረጋገጡ ውጤቶች", "reject_rate": "የውድቅ መጠን",
+      "abnormal_rate": "ያልተለመደ ውጤት መጠን", "critical": "አደገኛ ውጤቶች", "avg_tat": "አማካይ የውጤት ጊዜ", "avg_los": "አማካይ የቆይታ ጊዜ",
+      "now_in": "አሁን ሆስፒታል ውስጥ", "occupancy_now": "አሁን የአልጋ አጠቃቀም", "collected": "የተሰበሰበ", "refunded": "የተመለሰ", "discounts": "ቅናሾች",
+      "outstanding": "ያልተከፈለ ቀሪ ሂሳብ", "dispensed_units": "የተሰጠ ብዛት", "dispensed_rx": "የተሰጡ ማዘዣዎች",
+      "dispensed_value": "የተሰጠው ዋጋ", "stock_value": "የክምችት ዋጋ", "low_out": "ዝቅተኛ ወይም ያለቀ",
+      "expiring_meds": "ሊያልቁ የተቃረቡ መድኃኒቶች", "expired_meds": "ጊዜው ያለፈ ክምችት ያላቸው መድኃኒቶች"
+    },
+    "def": {
+      "new_patients": "በጊዜው የተመዘገቡ ታካሚዎች።",
+      "visits": "በጊዜው የተጀመሩ የተመላላሽ ጉብኝቶች። የተሰረዙ አይካተቱም።",
+      "completed": "ወደ «ተጠናቋል» ሁኔታ የደረሱ ጉብኝቶች።",
+      "appointments": "በጊዜው የተያዙ (ያለ ቀጠሮ ያልሆኑ) ቀጠሮዎች፣ የተሰረዙ አይካተቱም።",
+      "no_show_rate": "ያልመጡት ÷ ዛሬ ወይም ከዚያ በፊት የነበሩ የተያዙ ቀጠሮዎች × 100።",
+      "admissions": "በጊዜው የተኙ ታካሚዎች።",
+      "discharges": "በጊዜው የተሰናበቱ ታካሚዎች።",
+      "net_collected": "በጊዜው የተቀበሉት ክፍያ ሲቀነስ የተመለሰው።",
+      "billed": "በጊዜው የተቆረጡ ደረሰኞች ድምር፣ ከቅናሽ በኋላ፣ የተሰረዙ አይካተቱም።",
+      "avg_visit_min": "ከመድረስ እስከ ማጠናቀቅ አማካይ ደቂቃ፣ የተጠናቀቁ ጉብኝቶች ብቻ።",
+      "tests": "በጊዜው የታዘዙ የላብ ምርመራዎች፣ የተሰረዙ አይካተቱም።",
+      "verified": "የተረጋገጠ ውጤት ያላቸው ምርመራዎች።",
+      "reject_rate": "ውድቅ የተደረጉ ናሙናዎች ÷ የታዘዙ ምርመራዎች × 100።",
+      "abnormal_rate": "ዝቅተኛ፣ ከፍተኛ ወይም አደገኛ የተባሉ የተረጋገጡ ውጤቶች ÷ የተረጋገጡ ውጤቶች × 100።",
+      "critical": "አደገኛ ተብለው የተረጋገጡ ውጤቶች።",
+      "avg_tat": "ከትዕዛዝ እስከ የተረጋገጠ ውጤት አማካይ ደቂቃ።",
+      "avg_los": "በጊዜው ለተሰናበቱ ታካሚዎች ከመተኛት እስከ መሰናበት አማካይ ቀናት።",
+      "now_in": "አሁን ሆስፒታል ውስጥ ያሉ ታካሚዎች።",
+      "occupancy_now": "የተያዙ አልጋዎች ÷ በጥገና ላይ ያልሆኑ አልጋዎች × 100፣ በአሁኑ ጊዜ።",
+      "collected": "የተቀበሉት ክፍያ፣ ተመላሽ ሳይቀነስ።",
+      "refunded": "በተመላሽ የተመለሰ ገንዘብ።",
+      "discounts": "በጊዜው በተቆረጡ ደረሰኞች ላይ የጸደቁ ቅናሾች።",
+      "outstanding": "የሁሉም ክፍት ደረሰኞች ያልተከፈለ ቀሪ፣ በአሁኑ ጊዜ።",
+      "dispensed_units": "በጊዜው የተሰጠ የመድኃኒት ብዛት።",
+      "dispensed_rx": "በጊዜው ቢያንስ አንድ ጊዜ የተሰጠባቸው ማዘዣዎች።",
+      "dispensed_value": "የተሰጠ ብዛት × የአሁኑ የአንዱ ዋጋ (ብር)።",
+      "stock_value": "ትክክለኛ (ያላለፈ) ክምችት × የአንዱ ዋጋ፣ በአሁኑ ጊዜ።",
+      "low_out": "ከእንደገና ማዘዣ ደረጃ በታች ወይም እኩል የሆኑ፣ ያለቁትንም ጨምሮ።",
+      "expiring_meds": "በ90 ቀን ውስጥ የሚያልቅ ክምችት ያላቸው መድኃኒቶች።",
+      "expired_meds": "አሁንም ጊዜው ያለፈ ክምችት የያዙ መድኃኒቶች።"
+    },
+    "chart": { "visits": "በቀን ጉብኝቶች", "collected": "በቀን የተጣራ ስብስብ", "tests": "በቀን የላብ ምርመራዎች", "admissions": "በቀን የተኙ", "dispensed": "በቀን የተሰጠ ብዛት" },
+    "table": {
+      "top_dx": "ዋና ዲያግኖሲሶች (ብዛት ብቻ)", "by_dept": "ጉብኝቶች በክፍል", "by_age": "ጉብኝቶች በዕድሜ ቡድን", "by_test": "ምርመራዎች በዓይነት",
+      "by_ward": "ተኝቶ ህክምና በዋርድ", "by_method": "ስብስብ በክፍያ ዘዴ", "by_type": "የተቆረጠ በአገልግሎት ዓይነት (ከቅናሽ በፊት)",
+      "top_meds": "ብዙ የተሰጡ መድኃኒቶች", "low_stock": "ዝቅተኛ ወይም ያለቀ"
+    },
+    "col": {
+      "code": "ICD-10", "description": "ዲያግኖሲስ", "count": "ብዛት", "department": "ክፍል", "age_group": "የዕድሜ ቡድን", "test": "ምርመራ",
+      "abnormal": "ያልተለመደ", "avg_tat": "አማካይ ጊዜ", "ward": "ዋርድ", "avg_los": "አማካይ ቆይታ (ቀን)", "method": "ዘዴ",
+      "collected": "የተሰበሰበ", "refunded": "የተመለሰ", "net": "የተጣራ", "type": "ዓይነት", "amount": "መጠን", "medicine": "መድኃኒት",
+      "units": "ብዛት", "rx": "ማዘዣዎች", "stock": "በክምችት", "reorder": "እንደገና ማዘዣ ደረጃ", "date": "ቀን", "value": "እሴት"
+    },
+    "age": { "a": "ከ5 ዓመት በታች", "b": "ከ5 እስከ 14 ዓመት", "c": "ከ15 እስከ 49 ዓመት", "d": "50 ዓመት እና ከዚያ በላይ" }
+  }
+}
