@@ -36,6 +36,7 @@ app.use('/api/settings', require('./modules/settings/settings.routes'));
   app.use('/api/public', require('./modules/public/public.routes'));
 app.use('/api/requests', require('./modules/requests/requests.routes'));
 app.use('/api/news', require('./modules/news/news.routes'));
+app.use('/api/auth', require('./modules/auth/auth.routes'));
 // TEMPORARY: proves RBAC works. Delete this route later.
 app.get('/api/rbac-test', authenticate, requirePermission('patients.create'),
   (req, res) => ok(res, null, `Access granted for ${req.user.role}`));

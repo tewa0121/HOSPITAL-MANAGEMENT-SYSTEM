@@ -13,7 +13,7 @@ import { CONTACT, NAME } from '../utils/hospital'; // hospital name, phone, emai
 /* ================= EDIT THESE ================= */
 // Banner photos: put them in client/public/images as hero1, hero2, hero3 ... hero8 (.jpg, .jpeg, .png or .webp).
 // Add as many as you like (names below). Photos that do not exist are skipped automatically.
-const SLIDES = ['hero1', 'hero2', 'hero3', 'team', 'hero5', 'hero6', 'ward', 'hero8'];
+const SLIDES = ['hero1', 'hero2', 'hero3', 'team', 'hero5', 'hero6', ];
 const ABOUT_IMG = 'hero2'; // photo used in the "About Our Hospital" card
 const DOCTORS = [ // sample profiles, replace with your real specialists
   { name: 'Dr. Name Surname', spec: { en: 'Internal Medicine', am: 'ውስጥ ደዌ' } },
