@@ -35,10 +35,10 @@ export default function PublicNews() {
   return (
     <PublicLayout>
       {error && <p className="rounded-lg bg-red-50 p-4 text-sm text-red-700">{L.error}</p>}
-      {!error && !data && <p className="py-16 text-center text-slate-500">…</p>}
+      {!error && (!data || (id ? Array.isArray(data) : !Array.isArray(data))) && <p className="py-16 text-center text-slate-500">…</p>}
 
       {/* single post */}
-      {id && data && (
+      {id && data && !Array.isArray(data) && (
         <article className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
           <span className="rounded-full bg-teal-50 px-3 py-1 text-xs font-semibold text-teal-700">{L.kind[data.kind]}</span>
           <h1 className="mt-3 text-2xl font-bold text-slate-900 sm:text-3xl">{pick(data, 'title')}</h1>
@@ -51,7 +51,7 @@ export default function PublicNews() {
       )}
 
       {/* list */}
-      {!id && data && (
+      {!id && Array.isArray(data) && (
         <>
           <h1 className="text-3xl font-bold text-slate-900">{L.title}</h1>
           <p className="mt-1 text-slate-500">{L.sub}</p>
