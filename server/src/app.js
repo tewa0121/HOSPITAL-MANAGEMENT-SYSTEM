@@ -13,19 +13,20 @@ const app = express();
 
 app.use(helmet());
 
-// Updated CORS configuration to accept requests from your Vercel frontend and configured clientUrl
+// CORS configuration to accept requests from your Vercel frontend and configured clientUrl
 app.use(cors({ 
   origin: [clientUrl, 'https://hospital-igh.vercel.app'].filter(Boolean), 
   credentials: true 
 }));
-
+app.set('trust proxy', 1);
 app.use(express.json({ limit: '1mb' }));
+
 app.use(morgan('dev'));
 app.use('/api', rateLimit({ windowMs: 60 * 1000, max: 300 }));
 
 app.get('/api/health', (req, res) => ok(res, { status: 'running', time: new Date() }));
 
-app.use('/api/auth', require('./modules/auth/auth.routes'));
+// Registered API Routes (Duplicates removed)
 app.use('/api/auth', require('./modules/auth/auth.routes'));
 app.use('/api/patients', require('./modules/patients/patients.routes'));
 app.use('/api/appointments', require('./modules/appointments/appointments.routes'));
@@ -42,8 +43,6 @@ app.use('/api/settings', require('./modules/settings/settings.routes'));
 app.use('/api/public', require('./modules/public/public.routes'));
 app.use('/api/requests', require('./modules/requests/requests.routes'));
 app.use('/api/news', require('./modules/news/news.routes'));
-app.use('/api/auth', require('./modules/auth/auth.routes'));
-
 // TEMPORARY: proves RBAC works. Delete this route later.
 app.get('/api/rbac-test', authenticate, requirePermission('patients.create'),
   (req, res) => ok(res, null, `Access granted for ${req.user.role}`));
